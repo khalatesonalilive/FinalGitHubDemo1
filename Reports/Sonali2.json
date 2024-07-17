@@ -1,0 +1,119 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-06T18:55:52.956Z",
+        "line": 4,
+        "name": "Validate the Facebook RegisterPage",
+        "description": "",
+        "id": "test-the-facebook-application;validate-the-facebook-registerpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3747749800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open \"incognito\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"incognito\"",
+                  "offset": 10
+                }
+              ],
+              "location": "Steps.RegisterPageSnippets.user_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2970517300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on RegisterPage",
+            "match": {
+              "location": "Steps.RegisterPageSnippets.user_is_on_register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 666426100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid \"Shivanya\" , \"Khalate\",\"khalatesonali@gmail.com\" and \"khalatesonali@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shivanya\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Khalate\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"khalatesonali@gmail.com\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"khalatesonali@123\"",
+                  "offset": 70
+                }
+              ],
+              "location": "Steps.RegisterPageSnippets.user_enter_valid_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591993400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select DOB as \"11\",\"May\",\"2000\" and user select gender as \"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"2000\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Female\"",
+                  "offset": 63
+                }
+              ],
+              "location": "Steps.RegisterPageSnippets.user_select_dob_as_and_user_select_gender_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Test the Facebook Application",
+    "description": "",
+    "id": "test-the-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:AllFeatureFiles/Facebook.feature",
+    "tags": []
+  }
+]

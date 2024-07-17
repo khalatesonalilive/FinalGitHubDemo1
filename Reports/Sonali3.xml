@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.26">
+    <testcase classname="Test the Facebook Application" name="Validate the Facebook RegisterPage" time="8.047">
+        <system-out><![CDATA[Given user open "incognito" browser.........................................passed
+When user is on RegisterPage................................................passed
+And user enter valid "Shivanya" , "Khalate","khalatesonali@gmail.com" and "khalatesonali@123".passed
+And user select DOB as "11","May","2000" and user select gender as "Female".passed
+]]></system-out>
+    </testcase>
+</testsuite>

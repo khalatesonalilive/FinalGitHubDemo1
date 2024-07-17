@@ -1,0 +1,7 @@
+
+@Register
+Scenario: Validate the Facebook RegisterPage                                                    # AllFeatureFiles/Facebook.feature:4
+  Given user open "incognito" browser                                                           # Steps.RegisterPageSnippets.user_open_browser(java.lang.String)
+  When user is on RegisterPage                                                                  # Steps.RegisterPageSnippets.user_is_on_register_page()
+  And user enter valid "Shivanya" , "Khalate","khalatesonali@gmail.com" and "khalatesonali@123" # Steps.RegisterPageSnippets.user_enter_valid_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user select DOB as "11","May","2000" and user select gender as "Female"                   # Steps.RegisterPageSnippets.user_select_dob_as_and_user_select_gender_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
